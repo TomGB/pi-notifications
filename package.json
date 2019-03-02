@@ -1,0 +1,27 @@
+{
+  "name": "pi-notifications",
+  "version": "1.0.0",
+  "description": "Showing mobile notifications on blinkt on the pi using pushbullet ",
+  "main": "index.js",
+  "dependencies": {
+    "blinkt": "^0.0.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "pushbullet": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomGB/pi-notifications.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomGB/pi-notifications/issues"
+  },
+  "homepage": "https://github.com/TomGB/pi-notifications#readme"
+}
